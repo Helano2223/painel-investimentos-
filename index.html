@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Investimentos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Painel de Investimentos</h1>
+        </header>
+        <main>
+            <div class="summary">
+                <div class="card">
+                    <h2>Saldo Total</h2>
+                    <p id="total-balance">R$ 0,00</p>
+                </div>
+                <div class="card">
+                    <h2>Rendimento</h2>
+                    <p id="total-returns">R$ 0,00</p>
+                </div>
+            </div>
+            <div class="investments">
+                <h2>Meus Investimentos</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Valor Investido</th>
+                            <th>Rendimento</th>
+                        </tr>
+                    </thead>
+                    <tbody id="investment-list">
+                        <!-- Conteúdo será inserido pelo JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
